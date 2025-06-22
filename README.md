@@ -21,11 +21,14 @@ This project calculates the **average review rating for each product category** 
 - `PRSMapper.java`: Maps each product category to its rating
 - `PRSReducer.java`: Calculates the average rating per category
 
-  ## 🧪 Input example
+## 🧪 Input example
 id,product_name,price,categories,...,rating,...
+
 123,Phone,299,Electronics|Mobile,...,4,...
 
 ## 📤 Output example
 Electronics 4.2
+
 Mobile 3.9
+
 Books 4.7
